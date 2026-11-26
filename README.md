@@ -117,3 +117,7 @@ Seeds are fixed (`set.seed(42)`), so outputs in `output/` are reproducible.
 
 Victoria Road Crash Data, Department of Transport and Planning, via
 [Transport Victoria Open Data](https://opendata.transport.vic.gov.au/dataset/victoria-road-crash-data).
+
+## License
+
+Code released under the [MIT License](LICENSE). The crash data is not included and remains subject to its own licence from the data provider.
