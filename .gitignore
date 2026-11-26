@@ -1,0 +1,17 @@
+# Whitelist: ignore everything, then allow the clean project files
+/*
+!/.gitignore
+!/README.md
+!/project.Rproj
+!/01_load_join.R
+!/02_clean_features.R
+!/03_eda.R
+!/04_models.R
+!/crash_analysis.R
+!/crash_analysis_both_pipelines.R
+!/output/
+
+# Large / regenerable outputs
+output/*.rds
+output/models/*.rds
+output/robustness/

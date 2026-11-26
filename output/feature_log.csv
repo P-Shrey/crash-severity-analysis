@@ -1,0 +1,17 @@
+step,records
+SEX U or blank -> Unknown,15165
+AGE_GROUP Unknown or blank,13509
+road user type Not Known,6317
+HELMET_BELT_WORN 9 (not known) or blank -> Unknown,115248
+"vehicle type unknown (no vehicle, Not Known or Not Applicable)",5388
+"VEHICLE_YEAR_MANUF missing, 0, before 1950 or after crash year -> Unknown",37109
+"SPEED_ZONE 777, 888, 999 -> Unknown",25241
+LIGHT_CONDITION 9 (unknown),9785
+ATMOSPH_COND Not known,37909
+SURFACE_COND Unk.,23429
+DEG_URBAN_NAME missing -> Unknown,2039
+train rows (2012-2021),328482
+"test rows (2022-2024, 2024 ends 30 Sep)",96870
+final rows,425352
+KSI rate x 1000 (train),193
+KSI rate x 1000 (test),161

@@ -1,0 +1,24 @@
+step,records
+person rows loaded,425352
+accident rows loaded,182039
+vehicle rows loaded,331992
+node rows loaded,184828
+atmospheric_cond rows loaded,184408
+road_surface_cond rows loaded,183053
+accident_event rows loaded,301710
+node accidents with >1 row (differ only in DEG_URBAN_NAME),2866
+node rows after de-duplication,181954
+atmospheric_cond accidents with >1 record,2329
+road_surface_cond accidents with >1 record,1009
+persons with no VEHICLE_ID,17051
+  of which pedestrians (ROAD_USER_TYPE 1),17027
+  linked to striking vehicle via accident_event,16058
+  linked to the only vehicle in a single-vehicle crash,585
+  still without a vehicle,408
+persons with no matching accident,0
+persons with a linked vehicle id not found in vehicle table,42
+persons with no node record,174
+persons with no atmospheric_cond record,0
+persons with no road_surface_cond record,0
+KSI = 1 (killed or seriously injured),78919
+final person-level rows,425352
